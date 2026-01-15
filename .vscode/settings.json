@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "npm.packageManager": "pnpm",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
