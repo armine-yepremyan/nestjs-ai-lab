@@ -277,13 +277,7 @@ Example flows you might support (depending on implementation):
    - File: `docs/screenshot-cli-chat.png`
    - Description: Terminal screenshot of `pnpm run start:chat` with a short conversation.
 
-   Markdown usage:
-
-   ```markdown
    ![CLI chat session](docs/screenshot-cli-chat.png)
-   ```
-
-You can add a dedicated **Screenshots** section that embeds these images:
 
 ---
 
