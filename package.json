@@ -11,7 +11,6 @@
     "start": "nest start",
     "start:chat": "ts-node src/cli/chat.cli.ts",
     "start:agent-chat": "ts-node src/cli/langgraph.cli.ts",
-    "start:agent-test": "ts-node src/cli/test-Search-Tool.cli.ts",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
