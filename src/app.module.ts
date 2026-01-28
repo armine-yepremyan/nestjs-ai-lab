@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AiModule } from './ai/ai.module';
 import { PineconeModule } from './pinecone/pinecone.module';
+import { LangGraphModule } from './langgraph/langgraph.module';
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { PineconeModule } from './pinecone/pinecone.module';
     }),
     AiModule,
     PineconeModule,
+    LangGraphModule,
   ],
   controllers: [AppController],
   providers: [AppService],

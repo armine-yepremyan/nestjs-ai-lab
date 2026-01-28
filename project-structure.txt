@@ -1,0 +1,161 @@
+.
+├── LICENSE
+├── README.md
+├── eslint.config.mjs
+├── nest-cli.json
+├── package.json
+├── pnpm-lock.yaml
+├── project-structure.txt
+├── src
+│   ├── ai
+│   │   ├── ai.controller.spec.ts
+│   │   ├── ai.controller.ts
+│   │   ├── ai.module.ts
+│   │   ├── ai.service.spec.ts
+│   │   └── ai.service.ts
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── cli
+│   │   └── chat.cli.ts
+│   ├── main.ts
+│   └── pinecone
+│       ├── pinecone.controller.spec.ts
+│       ├── pinecone.controller.ts
+│       ├── pinecone.module.ts
+│       ├── pinecone.service.spec.ts
+│       └── pinecone.service.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+6 directories, 27 files
+.
+├── .env
+├── .env.example
+├── .gitignore
+├── .prettierrc
+├── .vscode
+│   ├── launch.json
+│   └── settings.json
+├── LICENSE
+├── README.md
+├── docs
+│   ├── screenshot-cli-chat.png
+│   └── screenshot-multinode-agent-chat.png
+├── eslint.config.mjs
+├── experiements.ts
+├── nest-cli.json
+├── package.json
+├── pnpm-lock.yaml
+├── project-structure.txt
+├── src
+│   ├── ai
+│   │   ├── ai.controller.spec.ts
+│   │   ├── ai.controller.ts
+│   │   ├── ai.module.ts
+│   │   ├── ai.service.spec.ts
+│   │   └── ai.service.ts
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── cli
+│   │   ├── chat.cli.ts
+│   │   ├── langgraph.cli.ts
+│   │   ├── test-Search-Tool.cli.ts
+│   │   ├── test-State Management.cli.ts
+│   │   └── test.cli.ts
+│   ├── langgraph
+│   │   ├── agent
+│   │   │   ├── health-coach-agent.graph.ts
+│   │   │   ├── health-coach-agent.nodes.ts
+│   │   │   ├── health-coach-agent.state.ts
+│   │   │   └── health-coach-agent.types.ts
+│   │   ├── helpers
+│   │   │   └── create-readline.ts
+│   │   ├── langgraph.module.ts
+│   │   ├── langgraph.service.spec.ts
+│   │   ├── langgraph.service.ts
+│   │   ├── memory
+│   │   └── tools
+│   ├── main.ts
+│   └── pinecone
+│       ├── pinecone.controller.spec.ts
+│       ├── pinecone.controller.ts
+│       ├── pinecone.module.ts
+│       ├── pinecone.service.spec.ts
+│       └── pinecone.service.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+13 directories, 48 files
+.
+├── .env
+├── .env.example
+├── .gitignore
+├── .prettierrc
+├── .vscode
+│   ├── launch.json
+│   └── settings.json
+├── LICENSE
+├── README.md
+├── docs
+│   ├── screenshot-cli-chat.png
+│   └── screenshot-multinode-agent-chat.png
+├── eslint.config.mjs
+├── experiements.ts
+├── nest-cli.json
+├── package.json
+├── pnpm-lock.yaml
+├── project-structure.txt
+├── src
+│   ├── ai
+│   │   ├── ai.controller.spec.ts
+│   │   ├── ai.controller.ts
+│   │   ├── ai.module.ts
+│   │   ├── ai.service.spec.ts
+│   │   └── ai.service.ts
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── cli
+│   │   ├── chat.cli.ts
+│   │   ├── langgraph.cli.ts
+│   │   ├── test-Search-Tool.cli.ts
+│   │   ├── test-State Management.cli.ts
+│   │   └── test.cli.ts
+│   ├── langgraph
+│   │   ├── agent
+│   │   │   ├── health-coach-agent.graph.ts
+│   │   │   ├── health-coach-agent.nodes.ts
+│   │   │   ├── health-coach-agent.state.ts
+│   │   │   └── health-coach-agent.types.ts
+│   │   ├── helpers
+│   │   │   └── create-readline.ts
+│   │   ├── langgraph.module.ts
+│   │   ├── langgraph.service.spec.ts
+│   │   ├── langgraph.service.ts
+│   │   ├── memory
+│   │   └── tools
+│   ├── main.ts
+│   └── pinecone
+│       ├── pinecone.controller.spec.ts
+│       ├── pinecone.controller.ts
+│       ├── pinecone.module.ts
+│       ├── pinecone.service.spec.ts
+│       └── pinecone.service.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tsconfig.build.json
+└── tsconfig.json
+
+13 directories, 48 files

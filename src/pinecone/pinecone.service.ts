@@ -13,7 +13,7 @@ export class PineconeService {
     });
     this.pineconeIndex = new Pinecone({
       apiKey: this.configService.get<string>('PINECONE_API_KEY') || '',
-    }).Index('quickstart');
+    }).Index(this.configService.get<string>('PINECONE_INDEX') || '');
   }
 
   async getStatus(): Promise<string> {
